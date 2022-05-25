@@ -1,15 +1,7 @@
-'''
-Function:
-    网易云音乐自动签到
-Author:
-    Charles
-微信公众号:
-    Charles的皮卡丘
-'''
 import os
 import re
 from DecryptLogin import login
-from DecryptLogin.core.music163 import Cracker
+from DecryptLogin.modules.core.music163 import Cracker
 
 
 '''网易云音乐自动签到'''
